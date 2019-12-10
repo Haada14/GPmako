@@ -1,0 +1,39 @@
+img {
+    width: 700px;
+}
+body {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: blue;
+    
+
+
+    font-family: 'Crimson Text', serif;
+
+    font-family: 'Abril Fatface', cursive;
+
+
+}
+h4 {
+    text-align: -webkit-match-parent;
+  
+    color: steelblue;
+
+
+    font-family: 'Crimson Text', serif;
+
+    font-family: 'Abril Fatface', cursive;
+
+
+}
+element.style {
+    text-align: center;
+    width: 700px;
+    height: 5px;
+}
+
+font-family: 'Crimson Text', serif;

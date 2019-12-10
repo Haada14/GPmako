@@ -1,0 +1,66 @@
+body, html, header, h1 {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+header, body, html{
+    width: 100%;
+    height: 100%;
+}
+header{
+    background: url(../images/7.jpeg) no-repeat center center;
+    background-size: cover;
+    color: white;
+    width: 1350px;
+    height: 1100px;
+}
+header {
+    width: auto;
+    height: inherit;
+}
+
+.wrapper{
+    display: table;
+    width: 100%;
+    height: 100%;
+    
+}
+.contenir{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 1px 1px 10px black;
+}
+h1{
+    font-size: 70px;
+    color: #7f8fa6;
+}
+.subtitle{
+    font-size: 15px;
+}
+.colis{
+    color:  #7f8fa6;
+}
+
+.logo-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    justify-items: baseline;
+    color: black;
+}
+.logo-img {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1;
+    width: 100%;
+    text-align: left;
+}
+.logo {
+    text-align: justify;
+    width: 100%;
+}
