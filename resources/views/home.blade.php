@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Autoroad - Free Bootstrap 4 Template by Colorlib</title>
+    <title>GPmako</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -30,19 +31,19 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Auto<span>road</span></a>
+	      <a class="navbar-brand" href="/home">GP<span>mako</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="{{asset('index.html')}}" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="{{asset('about.html')}}" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="{{asset('pricing.html')}}" class="nav-link">Pricing</a></li>
-	          <li class="nav-item"><a href="{{asset('car.html')}}" class="nav-link">Our Car</a></li>
+	          <li class="nav-item active"><a href="/home" class="nav-link">Acceuil</a></li>
+	          <li class="nav-item"><a href="{{asset('about.html')}}" class="nav-link">A props</a></li>
+	          <li class="nav-item"><a href="{{asset('pricing.html')}}" class="nav-link">Rapport Qualite Prix</a></li>
+	          <li class="nav-item"><a href="{{route('Carriers.index')}}" class="nav-link">Nos tranporteur</a></li>
 	          <li class="nav-item"><a href="{{asset('blog.html')}}" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="{{asset('contact.html')}}" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="{{route('utilisateurs.connexion')}}" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -57,7 +58,7 @@
           	<div class="text">
 	            <h1 class="mb-4">Now <span>It's easy for you</span> <span>rent a car</span></h1>
 	            <p style="font-size: 18px;">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts</p>
-	            <a href="{{asset('https://vimeo.com/45830194')}}" class="icon-wrap popup-vimeo d-flex align-items-center mt-4">
+	            <a href="https://vimeo.com/45830194" class="icon-wrap popup-vimeo d-flex align-items-center mt-4">
 	            	<div class="icon d-flex align-items-center justify-content-center">
 	            		<span class="ion-ios-play"></span>
 	            	</div>
@@ -82,11 +83,11 @@
 	    				<div class="d-flex">
 	    					<div class="form-group mr-2">
 	                <label for="" class="label">Pick-up date</label>
-	                <input type="text" class="form-control" id="book_pick_date" placeholder="Date">
+	                <input type="text" class="form-control" id="Contacter_pick_date" placeholder="Date">
 	              </div>
 	              <div class="form-group ml-2">
 	                <label for="" class="label">Drop-off date</label>
-	                <input type="text" class="form-control" id="book_off_date" placeholder="Date">
+	                <input type="text" class="form-control" id="Contacter_off_date" placeholder="Date">
 	              </div>
               </div>
               <div class="form-group">
@@ -248,7 +249,7 @@
             <div class="media block-6 services">
               <div class="media-body py-md-4">
               	<div class="d-flex mb-3 align-items-center">
-	              	<div class="icon"><span class="flaticon-online-booking"></span></div>
+	              	<div class="icon"><span class="flaticon-online-Contactering"></span></div>
 	                <h3 class="heading mb-0 pl-3">Reservation</h3>
                 </div>
                 <p>A small river named Duden flows by their place and supplies it with you</p>
@@ -274,8 +275,8 @@
     	<div class="container-fluid px-4">
     		<div class="row justify-content-center">
           <div class="col-md-12 heading-section text-center ftco-animate mb-5">
-          	<span class="subheading">What we offer</span>
-            <h2 class="mb-2">Choose Your Car</h2>
+          	<span class="subheading">Nos tranporteurs</span>
+            <h2 class="mb-2">Choisissez votre tranporteur</h2>
           </div>
         </div>
     		<div class="row">
@@ -285,15 +286,15 @@
     						<div class="price-wrap d-flex">
     							<span class="rate">$25</span>
     							<p class="from-day">
-    								<span>From</span>
-    								<span>/Day</span>
+    								<span>Destination</span>
+    								<span>/Kg</span>
     							</p>
     						</div>
     					</div>
     					<div class="text p-4 text-center">
-    						<h2 class="mb-0"><a href="#">Mercedes Grand Sedan</a></h2>
-    						<span>Audi</span>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Book now</a> <a href="#" class="btn btn-black btn-outline-black ml-1">Details</a></p>
+    						<h2 class="mb-0"><a href="#">Sokhna Anta Lo</a></h2>
+    						<span>Paris</span>
+    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Contacter </a> <a href="#" class="btn btn-black btn-outline-black ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -301,17 +302,17 @@
     				<div class="car-wrap ftco-animate">
     					<div class="img d-flex align-items-end" style="background-image: url(images/car-2.jpg);">
     						<div class="price-wrap d-flex">
-    							<span class="rate">$25</span>
+    							<span class="rate">$15</span>
     							<p class="from-day">
-    								<span>From</span>
-    								<span>/Day</span>
+								<span>Destination</span>
+    								<span>/Kg</span>
     							</p>
     						</div>
     					</div>
     					<div class="text p-4 text-center">
-    						<h2 class="mb-0"><a href="#">Mercedes Grand Sedan</a></h2>
-    						<span>Ford</span>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Book now</a> <a href="#" class="btn btn-black btn-outline-black ml-1">Details</a></p>
+    						<h2 class="mb-0"><a href="#">Pierre Hann</a></h2>
+    						<span>Nigeria</span>
+    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Contacter </a> <a href="#" class="btn btn-black btn-outline-black ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -319,17 +320,17 @@
     				<div class="car-wrap ftco-animate">
     					<div class="img d-flex align-items-end" style="background-image: url(images/car-3.jpg);">
     						<div class="price-wrap d-flex">
-    							<span class="rate">$25</span>
+    							<span class="rate">$30</span>
     							<p class="from-day">
-    								<span>From</span>
-    								<span>/Day</span>
+								<span>Destination</span>
+    								<span>/Kg</span>
     							</p>
     						</div>
     					</div>
     					<div class="text p-4 text-center">
-    						<h2 class="mb-0"><a href="#">Mercedes Grand Sedan</a></h2>
-    						<span>Cheverolet</span>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Book now</a> <a href="#" class="btn btn-black btn-outline-black ml-1">Details</a></p>
+    						<h2 class="mb-0"><a href="#">Abdoulaye Diop Gaya</a></h2>
+    						<span>New York</span>
+    						<p class="d-flex mb-0 d-block"><a href="{{route('Carriers.contact')}}" class="btn btn-black btn-outline-black mr-1">Contacter </a> <a href="{{route('Carriers.details')}}" class="btn btn-black btn-outline-black ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -339,15 +340,15 @@
     						<div class="price-wrap d-flex">
     							<span class="rate">$25</span>
     							<p class="from-day">
-    								<span>From</span>
-    								<span>/Day</span>
+								<span>Destination</span>
+    								<span>/Kg</span>
     							</p>
     						</div>
     					</div>
     					<div class="text p-4 text-center">
     						<h2 class="mb-0"><a href="#">Mercedes Grand Sedan</a></h2>
     						<span>Mercedes</span>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Book now</a> <a href="#" class="btn btn-black btn-outline-black ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Contacter </a> <a href="#" class="btn btn-black btn-outline-black ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -358,15 +359,15 @@
     						<div class="price-wrap d-flex">
     							<span class="rate">$25</span>
     							<p class="from-day">
-    								<span>From</span>
-    								<span>/Day</span>
+								<span>Destination</span>
+    								<span>/Kg</span>
     							</p>
     						</div>
     					</div>
     					<div class="text p-4 text-center">
     						<h2 class="mb-0"><a href="#">Mercedes Grand Sedan</a></h2>
     						<span>Audi</span>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Book now</a> <a href="#" class="btn btn-black btn-outline-black ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Contacter </a> <a href="{{('Carriers.details')}}" class="btn btn-black btn-outline-black ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -376,15 +377,15 @@
     						<div class="price-wrap d-flex">
     							<span class="rate">$25</span>
     							<p class="from-day">
-    								<span>From</span>
-    								<span>/Day</span>
+								<span>Destination</span>
+    								<span>/Kg</span>
     							</p>
     						</div>
     					</div>
     					<div class="text p-4 text-center">
     						<h2 class="mb-0"><a href="#">Mercedes Grand Sedan</a></h2>
     						<span>Ford</span>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Book now</a> <a href="#" class="btn btn-black btn-outline-black ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Contacter </a> <a href="#" class="btn btn-black btn-outline-black ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -394,15 +395,15 @@
     						<div class="price-wrap d-flex">
     							<span class="rate">$25</span>
     							<p class="from-day">
-    								<span>From</span>
-    								<span>/Day</span>
+								<span>Destination</span>
+    								<span>/Kg</span>
     							</p>
     						</div>
     					</div>
     					<div class="text p-4 text-center">
     						<h2 class="mb-0"><a href="#">Mercedes Grand Sedan</a></h2>
     						<span>Cheverolet</span>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Book now</a> <a href="#" class="btn btn-black btn-outline-black ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Contacter </a> <a href="#" class="btn btn-black btn-outline-black ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -412,15 +413,15 @@
     						<div class="price-wrap d-flex">
     							<span class="rate">$25</span>
     							<p class="from-day">
-    								<span>From</span>
-    								<span>/Day</span>
+								<span>Destination</span>
+    								<span>/Kg</span>
     							</p>
     						</div>
     					</div>
     					<div class="text p-4 text-center">
     						<h2 class="mb-0"><a href="#">Mercedes Grand Sedan</a></h2>
     						<span>Mercedes</span>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Book now</a> <a href="#" class="btn btn-black btn-outline-black ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-black btn-outline-black mr-1">Contacter </a> <a href="#" class="btn btn-black btn-outline-black ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -636,7 +637,7 @@
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-faceContacter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
@@ -659,7 +660,7 @@
               <ul class="list-unstyled">
                 <li><a href="#" class="py-2 d-block">FAQ</a></li>
                 <li><a href="#" class="py-2 d-block">Payment Option</a></li>
-                <li><a href="#" class="py-2 d-block">Booking Tips</a></li>
+                <li><a href="#" class="py-2 d-block">Contactering Tips</a></li>
                 <li><a href="#" class="py-2 d-block">How it works</a></li>
                 <li><a href="#" class="py-2 d-block">Contact Us</a></li>
               </ul>
@@ -694,7 +695,7 @@
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-
+  
   <script src="{{asset('js/jquery.min.js')}}"></script>
   <script src="{{asset('js/jquery-migrate-3.0.1.min.js')}}"></script>
   <script src="{{asset('js/popper.min.js')}}"></script>
@@ -709,9 +710,10 @@
   <script src="{{asset('js/bootstrap-datepicker.js')}}"></script>
   <script src="{{asset('js/jquery.timepicker.min.js')}}"></script>
   <script src="{{asset('js/scrollax.min.js')}}"></script>
-  <script src="{{asset('https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false')}}"></script>
+  <script src="{{asset('https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false')}}"></script>																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												src="{{asset('https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false')}}"></script>
   <script src="{{asset('js/google-map.js')}}"></script>
   <script src="{{asset('js/main.js')}}"></script>
     
   </body>
 </html>
+
